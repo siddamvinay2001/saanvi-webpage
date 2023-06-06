@@ -1,0 +1,60 @@
+@import 'variables.css';
+
+.btn {
+	display: inline-block;
+	border-radius: 2px;
+	color: var(--color-grey-grade5);
+	padding: 10px 20px;
+	font-size: 13px;
+	font-weight: var(--font-medium);
+	transition: box-shadow 0.2s ease;
+	vertical-align: super;
+	background: #fff;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	border: solid 1px var(--color-grey-grade2);
+
+	&:disabled {
+		color: var(--color-grey-grade4);
+		cursor: not-allowed;
+		&:hover {
+			box-shadow: none;
+		}
+	}
+
+	&:hover {
+		box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.12);
+	}
+
+	&.btn-primary {
+		background: var(--color-brand-blue);
+		color: #fff;
+		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+		border: none;
+	}
+
+	&.btn-secondary {
+		background: var(--color-brand-orange);
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+		border: none;
+		color: #fff;
+	}
+
+	&.btn-primary,
+	&.btn-secondary {
+		&:disabled {
+			color: #fff;
+			background-color: var(--color-grey-grade4);
+			cursor: not-allowed;
+			&:hover {
+				box-shadow: none;
+			}
+		}
+	}
+}
+
+.btn-link {
+	color: var(--color-brand-blue);
+	font-weight: var(--font-medium);
+}
