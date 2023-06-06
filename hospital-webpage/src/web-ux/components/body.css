@@ -1,0 +1,14 @@
+.home-body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.home-body-about{
+    width: 75%;
+}
+
+.home-body-photo{
+    width: 25%;
+}
