@@ -1,6 +1,6 @@
-import hospImg1 from '../../assets/hosp4.jpeg';
-import hospImg2 from '../../assets/hop2.jpeg';
-import hospImg3 from '../../assets/hosp3.jpeg';
+import hospImg1 from '../../assets/home1.jpeg';
+import hospImg2 from '../../assets/home2.jpeg';
+import hospImg3 from '../../assets/home3.jpeg';
 import './styles/banner.css'
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css'
