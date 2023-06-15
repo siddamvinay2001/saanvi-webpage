@@ -1,0 +1,6 @@
+img{
+   min-height: 25vh;
+   max-height: 50vh;
+   width: 100%;
+   object-fit: fill;
+}

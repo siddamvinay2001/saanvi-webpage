@@ -1,0 +1,2 @@
+export  const   homeHeaderText = "About Us";
+export const  homeBodyText = "Healthcare is something that can’t be compromised, can it? Hospitals have a huge role to play in developing the healthcare system of any country because, with a growing population, the healthcare demands too are growing and evolving. Providing the highest standard of care for both, minor and major health issues, hospitals create a safe space for the patients by offering end-to-end clinical, surgical, and diagnostic services."
